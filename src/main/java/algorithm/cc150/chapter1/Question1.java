@@ -1,5 +1,8 @@
 package algorithm.cc150.chapter1;
 
+import java.util.HashSet;
+import java.util.Set;
+
 /**
  * Implement an algorithm to determine if a string has all unique characters.
  * What if you cannot use additional data structures?
@@ -21,6 +24,19 @@ public class Question1 {
     }
 
     return true;
+  }
+  
+  public boolean findUnique(String input) {
+	  Set<Character> charSet = new HashSet<>();
+	  char[] charInput = input.toCharArray();
+	  for (char c : charInput) {
+	       if (charSet.contains(c)) {
+	    	   return false;
+	       } else {
+	    	   charSet.add(c);
+	       }	   
+	   }
+	  return true;
   }
 }
 
