@@ -7,17 +7,16 @@ package algorithm.cc150.chapter1;
  */
 // O(1) space, O(n) time
 public class Question2 {
-  public char[] reverse(char[] str) {
-    if (str == null)
-      return new char[] {};
+	public char[] reverse(char[] str) {
+		if (str == null)
+			return new char[] {};
 
-    for (int i = 0; i < str.length / 2; ++i) {
-      char tmp = str[i];
-      str[i] = str[str.length - i - 1];
-      str[str.length - i - 1] = tmp;
-    }
-    
-    return str;
-  }
+		for (int i = 0; i < str.length / 2; ++i) {
+			char tmp = str[i];
+			str[i] = str[str.length - i - 1];
+			str[str.length - i - 1] = tmp;
+		}
+
+		return str;
+	}
 }
-

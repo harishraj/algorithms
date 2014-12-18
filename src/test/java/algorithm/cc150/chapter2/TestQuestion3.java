@@ -8,7 +8,6 @@ import org.junit.Test;
 
 import algorithm.TestBase;
 import algorithm.common.ListNode;
-import algorithm.util.Utils;
 
 /**
  * Implement an algorithm to delete a node in the middle of a singly linked

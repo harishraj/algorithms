@@ -1,22 +1,19 @@
 package algorithm.lc;
 
-import java.util.Collection;
-import java.util.Iterator;
-
 import org.junit.Test;
 
 import algorithm.TestBase;
 import algorithm.lc.ReverseList2.ListNode;
-import algorithm.lc.ReverseList2.Solution;
-import algorithm.util.Utils;
+import algorithm.lc.ReverseList2;
 
 public class TestReverseList2 extends TestBase {
   
   private ReverseList2.Solution solution;
+  private ReverseList2 reverseList;
 
   @Override
   protected void initInstance() {
-    solution = new Solution();
+	solution = reverseList.new Solution() ;
   }
 
   @Override

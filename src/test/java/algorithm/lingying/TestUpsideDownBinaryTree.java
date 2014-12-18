@@ -1,4 +1,4 @@
-package algorithm.recursive;
+package algorithm.lingying;
 
 import org.junit.Test;
 import static org.junit.Assert.assertEquals;

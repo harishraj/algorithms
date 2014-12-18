@@ -6,7 +6,6 @@ import org.junit.Test;
 
 import algorithm.TestBase;
 import algorithm.common.ListNode;
-import algorithm.util.Utils;
 
 /**
  * Write code to remove duplicates from an unsorted linked list.

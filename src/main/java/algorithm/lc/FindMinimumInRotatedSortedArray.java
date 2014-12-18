@@ -11,7 +11,7 @@ package algorithm.lc;
  *
  *  Time complexity: O(logN)
  */
-public class Solution {
+public class FindMinimumInRotatedSortedArray {
   public int findMin(int[] num) {
     int first = 0, last = num.length - 1;
     int min = Integer.MAX_VALUE;
